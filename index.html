@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+    <p>This website is made by : <a href="https://www.facebook.com/Hassan.A.Elseoudy">Hassan El-seoudy </a></p>
+    <h2>Choose grid Size</h2>
+    <form id="sizePicker">
+        Grid Height: <input type="number" id="inputHeight" name="height" min="1" value="1"> Grid Width: <input type="number" id="inputWeight" name="width" min="1" value="1">
+        <input type="submit">
+    </form>
+
+    <h2>Pick a color!</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas!</h2>
+    <table id="pixel_canvas"></table>
+
+    <script src="designs.js" type="text/javascript"></script>
+</body>
+
+</html>
